@@ -1,0 +1,8 @@
+.footer {
+  background-image: url(/images/background__footer.svg);
+  width: 100%;
+  height: 455px;
+  outline: 1px solid red;
+  background-size: cover;
+  position: relative;
+}

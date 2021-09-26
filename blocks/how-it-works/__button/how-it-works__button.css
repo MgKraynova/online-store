@@ -1,4 +1,8 @@
 .how-it-works__button {
   position: absolute;
   left: 470px;
+  width: 212px;
+  padding-top: 14px;
+  padding-left: 24px;
+  box-sizing: border-box;
 }

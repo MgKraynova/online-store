@@ -13,9 +13,10 @@
 
 @import url(../blocks/right-place/right-place.css);
 @import url(../blocks/right-place/__image/right-place__image.css);
-@import url(../blocks/right-place/__span-accent/);
+@import url(../blocks/right-place/__span-accent/right-place__span-accent.css);
 @import url(../blocks/right-place/__subtitle/right-place__subtitle.css);
 @import url(../blocks/right-place/__title/right-place__title.css);
+@import url(../blocks/right-place/__button/right-place__button.css);
 
 @import url(../blocks/button/button.css);
 
@@ -39,5 +40,24 @@
 @import url(../blocks/how-it-works/__title/how-it-works__title.css);
 @import url(../blocks/how-it-works/__cards/how-it-works__cards.css);
 @import url(../blocks/how-it-works/__digit/how-it-works__digit.css);
-@import url(../blocks/how-it-works/__image/how-it-works__image.css);
+@import url(../blocks/how-it-works/__image-monitor/how-it-works__image-monitor.css);
 @import url(../blocks/how-it-works/__button/how-it-works__button.css);
+@import url(../blocks/how-it-works/__digit-one/how-it-works__digit-one.css);
+@import url(../blocks/how-it-works/__digit-two/how-it-works__digit-two.css);
+@import url(../blocks/how-it-works/__image-ruler/how-it-works__image-ruler.css);
+@import url(../blocks/how-it-works/__digit-three/how-it-works__digit-three.css);
+@import url(../blocks/how-it-works/__image-calc/how-it-works__image-calc.css);
+@import url(../blocks/how-it-works/__image-builder/how-it-works__image-builder.css);
+
+@import url(../blocks/categories/categories.css);
+@import url(../blocks/categories/__cards/categories__cards.css);
+@import url(../blocks/categories/__card/categories__card.css);
+@import url(../blocks/categories/__subtitle/categories__subtitle.css);
+@import url(../blocks/categories/__image/categories__image.css);
+@import url(../blocks/categories/__left-image/categories__left-image.css);
+@import url(../blocks/categories/__button/categories__button.css);
+@import url(../blocks/categories/__subtitle-electronics/categories__subtitle-electronics.css);
+@import url(../blocks/categories/__general-subtitle/categories__general-subtitle.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__image/footer__image.css);

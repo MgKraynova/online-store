@@ -1,0 +1,13 @@
+.footer__image {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 508px;
+  height: 455px;
+  outline: 1px solid red;
+  object-fit: none;
+  object-position: 0 48px;
+  background-image: url(/images/background__footer.svg);
+  z-index: 1;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}

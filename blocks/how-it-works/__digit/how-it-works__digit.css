@@ -1,8 +1,11 @@
 .how-it-works__digit {
-  width: 58px;
-  height: 131px;
-  position: absolute;
-  top: 12px;
-  left: 17px;
   outline: 1px solid red;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 96px;
+  line-height: 131px;
+  text-align: center;
+  color: rgba(249, 189, 189, 0.25);
+  margin: 0;
 }
