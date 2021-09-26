@@ -1,0 +1,8 @@
+.page {
+  position: relative;
+  min-width: 320px;
+  max-width: 1152px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 1px solid red;
+}

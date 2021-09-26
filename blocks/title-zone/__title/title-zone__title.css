@@ -1,0 +1,12 @@
+.title-zone__title {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 98px;
+  text-align: right;
+  color: rgba(34, 34, 34, 0.1);
+  outline: 1px solid green;
+  margin: 0;
+  text-transform: uppercase;
+}

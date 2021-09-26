@@ -1,0 +1,18 @@
+.button {
+  background: #daa520;
+  border-radius: 4px;
+  border: 0;
+  color: #ffffff;
+  /* padding-top: 16px;
+  padding-bottom: 17px;
+  padding-left: 24px;
+  padding-right: 22px; */
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  text-decoration: none;
+  width: 175px;
+  height: 50px;
+}

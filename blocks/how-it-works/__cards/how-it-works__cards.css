@@ -1,0 +1,6 @@
+.how-it-works__cards {
+  margin-top: 64px;
+  margin-bottom: 64px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(238px, 1fr));
+}

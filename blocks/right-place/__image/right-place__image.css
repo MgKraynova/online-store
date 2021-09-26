@@ -1,0 +1,8 @@
+.right-place__image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 568px;
+  height: 800px;
+  z-index: -1;
+}

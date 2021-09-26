@@ -1,0 +1,7 @@
+.logo__rectangle {
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+  outline: 1px solid red;
+  margin-top: 1px;
+}

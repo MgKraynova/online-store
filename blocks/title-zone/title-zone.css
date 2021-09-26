@@ -1,0 +1,8 @@
+.title-zone {
+  width: 952px;
+  height: 98px;
+  display: flex;
+  justify-content: space-between;
+  outline: 1px solid green;
+  align-items: center;
+}

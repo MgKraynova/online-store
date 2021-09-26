@@ -1,0 +1,8 @@
+.how-it-works__digit {
+  width: 58px;
+  height: 131px;
+  position: absolute;
+  top: 12px;
+  left: 17px;
+  outline: 1px solid red;
+}

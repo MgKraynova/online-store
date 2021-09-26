@@ -1,0 +1,31 @@
+.header__link {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: rgba(34, 34, 34, 0.75);
+  text-decoration: none;
+  margin-right: 48px;
+}
+
+.header__link_active {
+  width: 45px;
+  height: 22px;
+  left: 0px;
+  top: 0px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 22px;
+  color: #daa520;
+}
+
+.header__link:last-of-type {
+  margin-right: 0;
+}
+
+.header__link:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,43 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__menu/header__menu.css);
+
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/__text/logo__text.css);
+@import url(../blocks/logo/__rectangle/logo__rectangle.css);
+
+@import url(../blocks/right-place/right-place.css);
+@import url(../blocks/right-place/__image/right-place__image.css);
+@import url(../blocks/right-place/__span-accent/);
+@import url(../blocks/right-place/__subtitle/right-place__subtitle.css);
+@import url(../blocks/right-place/__title/right-place__title.css);
+
+@import url(../blocks/button/button.css);
+
+@import url(../blocks/about-us/about-us.css);
+@import url(../blocks/about-us/__content-zone/about-us__content-zone.css);
+@import url(../blocks/about-us/__cutlery-image/about-us__cutlery-image.css);
+@import url(../blocks/about-us/__first-text-zone/about-us__first-text-zone.css);
+@import url(../blocks/about-us/__food-image/about-us__food-image.css);
+@import url(../blocks/about-us/__main-text/about-us__main-text.css);
+@import url(../blocks/about-us/__main-text/_color/about-us__main-text_color_black.css);
+@import url(../blocks/about-us/__second-text-zone/about-us__second-text-zone.css);
+@import url(../blocks/about-us/__span-accent/about-us__span-accent.css);
+@import url(../blocks/about-us/__text/about-us__text.css);
+
+@import url(../blocks/title-zone/title-zone.css);
+@import url(../blocks/title-zone/__title/title-zone__title.css);
+@import url(../blocks/title-zone/__subtitle/title-zone__subtitle.css);
+
+@import url(../blocks/how-it-works/how-it-works.css);
+@import url(../blocks/how-it-works/__card/how-it-works__card.css);
+@import url(../blocks/how-it-works/__title/how-it-works__title.css);
+@import url(../blocks/how-it-works/__cards/how-it-works__cards.css);
+@import url(../blocks/how-it-works/__digit/how-it-works__digit.css);
+@import url(../blocks/how-it-works/__image/how-it-works__image.css);
+@import url(../blocks/how-it-works/__button/how-it-works__button.css);

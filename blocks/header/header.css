@@ -1,0 +1,5 @@
+.header {
+  display: flex;
+  outline: 1px solid blue;
+  justify-content: flex-start;
+}
