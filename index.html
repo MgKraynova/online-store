@@ -1,289 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="pages/index.css" />
-    <!-- <link rel="stylesheet" href="normalize.css" /> -->
-    <!-- <link rel="stylesheet" href="styles.css" /> -->
-  </head>
-  <body>
-    <div class="page">
-      <header class="header">
-        <div class="logo header__logo">
-          <img
-            src="images/Rectangle 5.svg"
-            alt="Логотип WOODIES"
-            class="logo__rectangle"
-          />
-          <p class="logo__text">WOODIES</p>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="pages/index.css" />
+  <!-- <link rel="stylesheet" href="normalize.css" /> -->
+  <!-- <link rel="stylesheet" href="styles.css" /> -->
+</head>
+
+<body>
+  <div class="page">
+    <header class="header">
+      <div class="logo header__logo">
+        <img src="images/Rectangle 5.svg" alt="Логотип WOODIES" class="logo__rectangle" />
+        <p class="logo__text">WOODIES</p>
+      </div>
+      <nav class="header__menu">
+        <a href="#" class="header__link header__link_active">Home</a>
+        <a href="#" class="header__link">About Us</a>
+        <a href="#" class="header__link">How it works</a>
+        <a href="#" class="header__link">Categories</a>
+      </nav>
+    </header>
+    <main>
+      <!-- Первая секция -->
+      <section class="right-place">
+        <p class="right-place__subtitle">
+          Are you looking for
+          <span class="right-place__span-accent">woodden furniture</span> for
+          your place?
+        </p>
+        <h1 class="right-place__title">This is the Right Place</h1>
+        <a href="#" class="button right-place__button">Explore Furniture</a>
+        <img src="images/table.svg" alt="Кофейный столик" class="right-place__image" />
+      </section>
+
+      <!-- Вторая секция -->
+      <section class="about-us">
+        <!-- Зона с логотипом -->
+        <div class="title-zone">
+          <h3 class="title-zone__subtitle">Who we are</h3>
+          <h2 class="title-zone__title">About us</h2>
         </div>
-        <nav class="header__menu">
-          <a href="#" class="header__link header__link_active">Home</a>
-          <a href="#" class="header__link">About Us</a>
-          <a href="#" class="header__link">How it works</a>
-          <a href="#" class="header__link">Categories</a>
+
+        <!-- Основной блок -->
+        <div class="about-us__content-zone">
+          <!-- Первый блок с текстом -->
+          <div class="about-us__first-text-zone">
+            <p class="about-us__main-text">
+              <span class="about-us__span-accent">WOODIES</span> is the
+              <span class="about-us__span-accent">home of modern wooden furniture</span>
+            </p>
+            <p class="about-us__text">
+              the answer to your need for furniture with shapes, sizes and
+              colors.
+            </p>
+          </div>
+
+          <!-- Второй блок с текстом -->
+          <div class="about-us__second-text-zone">
+            <p class="about-us__main-text about-us__main-text_color_black">
+              Customized furniture
+              <span class="about-us__span-accent">made just for you</span>
+            </p>
+            <p class="about-us__text">
+              Get it easy to adjust furniture to the shape and size of your
+              dwelling or business.
+            </p>
+          </div>
+
+          <!-- Изображения -->
+          <img src="images/food.svg" alt="Food in wooden dishes" class="about-us__food-image" />
+          <img src="images/cutlery.svg" alt="Wooden cutlery" class="about-us__cutlery-image" />
+        </div>
+      </section>
+
+      <!-- Третья секция -->
+      <section class="how-it-works">
+        <!-- Зона с логотипом -->
+        <div class="title-zone">
+          <h3 class="title-zone__subtitle">How to custom</h3>
+          <h2 class="title-zone__title">HOW IT WORKS</h2>
+        </div>
+
+        <!-- Блок с картинками -->
+        <div class="how-it-works__content-zone">
+          <div class="how-it-works__cards">
+            <!-- Первая карточка -->
+            <div class="how-it-works__card">
+              <p class="how-it-works__digit how-it-works__digit-one">1</p>
+              <img src="images/Choose design.svg" alt="computer" class="how-it-works__image-monitor" />
+              <p class="how-it-works__title">Choose Design</p>
+            </div>
+
+            <!-- Вторая карточка -->
+            <div class="how-it-works__card">
+              <p class="how-it-works__digit how-it-works__digit-two">2</p>
+              <img src="images/Area measuring.svg" alt="ruler" class="how-it-works__image-ruler" />
+              <p class="how-it-works__title">Area measuring</p>
+            </div>
+
+            <!-- Третья карточка -->
+            <div class="how-it-works__card">
+              <p class="how-it-works__digit how-it-works__digit-three">3</p>
+              <img src="images/budgeting.svg" alt="calculator" class="how-it-works__image-calc" />
+              <p class="how-it-works__title">Budgeting</p>
+            </div>
+
+            <!-- Четвертая карточка -->
+            <div class="how-it-works__card">
+              <p class="how-it-works__digit">4</p>
+              <img src="images/production.svg" alt="builder" class="how-it-works__image-builder" />
+              <p class="how-it-works__title">Production</p>
+            </div>
+          </div>
+
+          <!-- Кнопка -->
+          <a href="#" class="button how-it-works__button">Get Personalized Now</a>
+        </div>
+      </section>
+
+      <!-- Четвертая секция -->
+      <section class="categories">
+        <!-- Зона с логотипом -->
+        <div class="title-zone">
+          <h3 class="title-zone__subtitle">What we have</h3>
+          <h2 class="title-zone__title">CATEGORIES</h2>
+        </div>
+
+        <div class="categories__cards">
+          <div class="categories__card">
+            <h4 class="categories__subtitle categories__general-subtitle">
+              Desk
+            </h4>
+            <img src="images/table2.svg" alt="table" class="categories__image categories__left-image" />
+            <a href="#" class="categories__button">Shop Now</a>
+          </div>
+
+          <div class="categories__card">
+            <h4 class="categories__subtitle categories__general-subtitle">
+              Chair
+            </h4>
+            <img src="images/chair.svg" alt="chair" class="categories__image" />
+            <a href="#" class="categories__button">Shop Now</a>
+          </div>
+
+          <div class="categories__card">
+            <h4 class="categories__subtitle categories__general-subtitle">
+              Kitchenware
+            </h4>
+            <img src="images/plates.svg" alt="wooden plates" class="categories__image" />
+            <a href="#" class="categories__button">Shop Now</a>
+          </div>
+
+          <div class="categories__card">
+            <h4 class="categories__subtitle categories__general-subtitle">
+              Book Shelf
+            </h4>
+            <img src="images/shelf.svg" alt="wooden book shelf" class="categories__image" />
+            <a href="#" class="categories__button">Shop Now</a>
+          </div>
+
+          <div class="categories__card">
+            <h4 class="categories__subtitle categories__subtitle-electronics">
+              Electronics
+            </h4>
+            <img src="images/radio.svg" alt="radio" class="categories__image" />
+            <a href="#" class="categories__button">Shop Now</a>
+          </div>
+          <div class="categories__card"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <!-- <img src="/images/table__footer.svg" alt="table" class="footer__image"> -->
+      <!-- <div class="footer__line"></div> -->
+      <div class="footer__columns">
+        <div class="footer__first-column">
+          <div class="logo">
+            <img src="images/Rectangle 5.svg" alt="Логотип WOODIES" class="logo__rectangle">
+            <p class="logo__text">WOODIES</p>
+          </div>
+          <p class="footer__text">(012) 8967453</p>
+          <p class="footer__text">test@email.com</p>
+          <p class="footer__text">Test Address</p>
+        </div>
+        <nav class="footer__second-column">
+          <ul class="footer__links">
+            <li><h3 class="footer__title">Product</h3></li>
+            <li><a href="#" class="footer__link">Furnitures</a></li>
+            <li><a href="#" class="footer__link">Packages</a></li>
+            <li><a href="#" class="footer__link">Services</a></li>
+          </ul>
+
+          <ul class="footer__links">
+            <li><h3 class="footer__title">Resources</h3></li>
+            <li><a href="#" class="footer__link">Blog</a></li>
+            <li><a href="#" class="footer__link">FAQs</a></li>
+            <li><a href="#" class="footer__link">Contact Us</a></li>
+          </ul>
+
+          <ul class="footer__links">
+            <li><h3 class="footer__title">Company</h3></li>
+            <li><a href="#" class="footer__link">About Us</a></li>
+            <li><a href="#" class="footer__link">Jobs</a></li>
+            <li><a href="#" class="footer__link">Our Team</a></li>
+          </ul>
+
+          <ul class="footer__links">
+            <li><h3 class="footer__title">Follow Us</h3></li>
+            <li><a href="#" class="footer__link">Facebook</a></li>
+            <li><a href="#" class="footer__link">Instagram</a></li>
+            <li><a href="#" class="footer__link">Twitter</a></li>
+          </ul>
         </nav>
-      </header>
-      <main>
-        <!-- Первая секция -->
-        <section class="right-place">
-          <p class="right-place__subtitle">
-            Are you looking for
-            <span class="right-place__span-accent">woodden furniture</span> for
-            your place?
-          </p>
-          <h1 class="right-place__title">This is the Right Place</h1>
-          <a href="#" class="button right-place__button">Explore Furniture</a>
-          <img
-            src="images/table.svg"
-            alt="Кофейный столик"
-            class="right-place__image"
-          />
-        </section>
+      </div>
+    </footer>
+  </div>
+</body>
 
-        <!-- Вторая секция -->
-        <section class="about-us">
-          <!-- Зона с логотипом -->
-          <div class="title-zone">
-            <h3 class="title-zone__subtitle">Who we are</h3>
-            <h2 class="title-zone__title">About us</h2>
-          </div>
-
-          <!-- Основной блок -->
-          <div class="about-us__content-zone">
-            <!-- Первый блок с текстом -->
-            <div class="about-us__first-text-zone">
-              <p class="about-us__main-text">
-                <span class="about-us__span-accent">WOODIES</span> is the
-                <span class="about-us__span-accent"
-                  >home of modern wooden furniture</span
-                >
-              </p>
-              <p class="about-us__text">
-                the answer to your need for furniture with shapes, sizes and
-                colors.
-              </p>
-            </div>
-
-            <!-- Второй блок с текстом -->
-            <div class="about-us__second-text-zone">
-              <p class="about-us__main-text about-us__main-text_color_black">
-                Customized furniture
-                <span class="about-us__span-accent">made just for you</span>
-              </p>
-              <p class="about-us__text">
-                Get it easy to adjust furniture to the shape and size of your
-                dwelling or business.
-              </p>
-            </div>
-
-            <!-- Изображения -->
-            <img
-              src="images/food.svg"
-              alt="Food in wooden dishes"
-              class="about-us__food-image"
-            />
-            <img
-              src="images/cutlery.svg"
-              alt="Wooden cutlery"
-              class="about-us__cutlery-image"
-            />
-          </div>
-        </section>
-
-        <!-- Третья секция -->
-        <section class="how-it-works">
-          <!-- Зона с логотипом -->
-          <div class="title-zone">
-            <h3 class="title-zone__subtitle">How to custom</h3>
-            <h2 class="title-zone__title">HOW IT WORKS</h2>
-          </div>
-
-          <!-- Блок с картинками -->
-          <div class="how-it-works__content-zone">
-            <div class="how-it-works__cards">
-              <!-- Первая карточка -->
-              <div class="how-it-works__card">
-                <p class="how-it-works__digit how-it-works__digit-one">1</p>
-                <img
-                  src="images/Choose design.svg"
-                  alt="computer"
-                  class="how-it-works__image-monitor"
-                />
-                <p class="how-it-works__title">Choose Design</p>
-              </div>
-
-              <!-- Вторая карточка -->
-              <div class="how-it-works__card">
-                <p class="how-it-works__digit how-it-works__digit-two">2</p>
-                <img
-                  src="images/Area measuring.svg"
-                  alt="ruler"
-                  class="how-it-works__image-ruler"
-                />
-                <p class="how-it-works__title">Area measuring</p>
-              </div>
-
-              <!-- Третья карточка -->
-              <div class="how-it-works__card">
-                <p class="how-it-works__digit how-it-works__digit-three">3</p>
-                <img
-                  src="images/budgeting.svg"
-                  alt="calculator"
-                  class="how-it-works__image-calc"
-                />
-                <p class="how-it-works__title">Budgeting</p>
-              </div>
-
-              <!-- Четвертая карточка -->
-              <div class="how-it-works__card">
-                <p class="how-it-works__digit">4</p>
-                <img
-                  src="images/production.svg"
-                  alt="builder"
-                  class="how-it-works__image-builder"
-                />
-                <p class="how-it-works__title">Production</p>
-              </div>
-            </div>
-
-            <!-- Кнопка -->
-            <a href="#" class="button how-it-works__button"
-              >Get Personalized Now</a
-            >
-          </div>
-        </section>
-
-        <!-- Четвертая секция -->
-        <section class="categories">
-          <!-- Зона с логотипом -->
-          <div class="title-zone">
-            <h3 class="title-zone__subtitle">What we have</h3>
-            <h2 class="title-zone__title">CATEGORIES</h2>
-          </div>
-
-          <div class="categories__cards">
-            <div class="categories__card">
-              <h4 class="categories__subtitle categories__general-subtitle">
-                Desk
-              </h4>
-              <img
-                src="images/table2.svg"
-                alt="table"
-                class="categories__image categories__left-image"
-              />
-              <a href="#" class="categories__button">Shop Now</a>
-            </div>
-
-            <div class="categories__card">
-              <h4 class="categories__subtitle categories__general-subtitle">
-                Chair
-              </h4>
-              <img
-                src="images/chair.svg"
-                alt="chair"
-                class="categories__image"
-              />
-              <a href="#" class="categories__button">Shop Now</a>
-            </div>
-
-            <div class="categories__card">
-              <h4 class="categories__subtitle categories__general-subtitle">
-                Kitchenware
-              </h4>
-              <img
-                src="images/plates.svg"
-                alt="wooden plates"
-                class="categories__image"
-              />
-              <a href="#" class="categories__button">Shop Now</a>
-            </div>
-
-            <div class="categories__card">
-              <h4 class="categories__subtitle categories__general-subtitle">
-                Book Shelf
-              </h4>
-              <img
-                src="images/shelf.svg"
-                alt="wooden book shelf"
-                class="categories__image"
-              />
-              <a href="#" class="categories__button">Shop Now</a>
-            </div>
-
-            <div class="categories__card">
-              <h4 class="categories__subtitle categories__subtitle-electronics">
-                Electronics
-              </h4>
-              <img
-                src="images/radio.svg"
-                alt="radio"
-                class="categories__image"
-              />
-              <a href="#" class="categories__button">Shop Now</a>
-            </div>
-            <div class="categories__card"></div>
-          </div>
-        </section>
-      </main>
-      <footer class="footer">
-        <img
-          src="/images/table__footer.svg"
-          alt="table"
-          class="footer__image"
-        />
-
-        <div class="footer__columns">
-          <div class="footer__column">
-            <div class="logo">
-              <img
-                src="images/Rectangle 5.svg"
-                alt="Логотип WOODIES"
-                class="logo__rectangle"
-              />
-              <p class="logo__text">WOODIES</p>
-            </div>
-            <p class="footer__text">(012) 8967453</p>
-            <p class="footer__text">test@email.com</p>
-            <p class="footer__text">Test Address</p>
-          </div>
-          <div class="footer__column">
-            <h3 class="footer__title">Product</h3>
-            <nav class="footer__links">
-              <a href="#" class="footer__link">Furnitures</a>
-              <a href="#" class="footer__link">Packages</a>
-              <a href="#" class="footer__link">Services</a>
-            </nav>
-          </div>
-          <div class="footer__column">
-            <h3 class="footer__title">Resources</h3>
-            <nav class="footer__links">
-              <a href="#" class="footer__link">Blog</a>
-              <a href="#" class="footer__link">FAQs</a>
-              <a href="#" class="footer__link">Contact Us</a>
-            </nav>
-          </div>
-          <div class="footer__column">
-            <h3 class="footer__title">Company</h3>
-            <nav class="footer__links">
-              <a href="#" class="footer__link">About Us</a>
-              <a href="#" class="footer__link">Jobs</a>
-              <a href="#" class="footer__link">Our Team</a>
-            </nav>
-          </div>
-          <div class="footer__column">
-            <h3 class="footer__title">Follow Us</h3>
-            <nav class="footer__links">
-              <a href="#" class="footer__link">Facebook</a>
-              <a href="#" class="footer__link">Instagram</a>
-              <a href="#" class="footer__link">Twitter</a>
-            </nav>
-          </div>
-        </div>
-      </footer>
-    </div>
-  </body>
 </html>

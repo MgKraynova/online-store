@@ -1,0 +1,8 @@
+.footer__second-column {
+  display: grid;
+  /* grid-template-columns: minmax(85px, 1fr) minmax(85px, 1fr) minmax(85px, 1fr) minmax(85px, 1fr); */
+  justify-items: end;
+  grid-template-columns: repeat(4, minmax(89px, 1fr));
+  gap: 46px;
+  max-width: 490px;
+}

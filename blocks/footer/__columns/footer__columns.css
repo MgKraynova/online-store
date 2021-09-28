@@ -1,0 +1,11 @@
+.footer__columns {
+  max-width: 708px;
+  min-height: 138px;
+  outline: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 107px;
+  /* margin-top: 232px; */
+  /* margin-bottom: 85px; */
+  z-index: 5;
+}

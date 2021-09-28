@@ -1,64 +1,22 @@
 /* TODO сделать hover для ссылок и кнопок */
-/* TODO сделать кнопку с помощью тега button */
+/* TODO сделать кнопку с помощью тега button или input */
 
 .how-it-works__content-zone {
   position: relative;
 }
 
-.footer__columns {
-  width: 709px;
-  height: 138px;
-  outline: 1px solid red;
-  display: flex;
-  justify-content: space-between;
-  margin-left: 107px;
-  margin-bottom: 85px;
-  z-index: 5;
-}
 
-.footer__column {
+
+/* .footer__column {
   display: flex;
   flex-direction: column;
   outline: 1px solid red;
   width: 192px;
-}
+} */
 
-.footer__text {
-  font-family: Nunito;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 19px;
-  margin-right: 0;
-  margin-bottom: 0;
-  margin-left: 0;
-  margin-top: 16px;
-  color: #8d8d8d;
-}
 
-.footer__title {
-  font-family: Nunito;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 25px;
-  color: #333333;
-  margin: 0;
-}
 
-.footer__links {
-  display: flex;
-  flex-direction: column;
-  outline: 1px solid red;
-}
 
-.footer__link {
-  font-family: Nunito;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 19px;
-  color: #8d8d8d;
-  text-decoration: none;
-  margin-top: 16px;
-}
+
+
+

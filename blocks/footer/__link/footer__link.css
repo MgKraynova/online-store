@@ -1,0 +1,14 @@
+.footer__link {
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #8d8d8d;
+  text-decoration: none;
+  margin-top: 16px;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  display: block;
+}
