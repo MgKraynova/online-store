@@ -1,0 +1,15 @@
+.footer__links {
+  display: flex;
+  flex-direction: column;
+  outline: 1px solid red;
+  list-style-type: none;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-top: 0;
+  padding-left: 0;
+  /* margin-right: 52px; */
+}
+
+.footer__links:last-of-type {
+  margin-right: 0;
+}
