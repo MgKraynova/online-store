@@ -3,4 +3,11 @@
   margin-bottom: 62px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(238px, 1fr));
+  /*grid-template-columns: repeat(auto-fit, 238px);*/
+}
+
+@media screen and (max-width: 1151px) {
+  .how-it-works__cards {
+    gap: 30px;
+  }
 }

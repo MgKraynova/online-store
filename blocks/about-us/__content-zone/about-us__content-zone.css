@@ -1,5 +1,5 @@
 .about-us__content-zone {
-  width: 1052px;
+  max-width: 1052px;
   height: 812px;
   position: relative;
   margin-top: 40px;

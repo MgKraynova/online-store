@@ -10,15 +10,15 @@
 }
 
 .categories__card:nth-of-type(3n + 1) {
-  background-image: url(/images/Rectangle\ 7.svg);
+  background-image: url(../../../images/Rectangle7.svg);
 }
 
 .categories__card:nth-of-type(3n + 2) {
-  background-image: url(/images/Rectangle\ 8.svg);
+  background-image: url(../../../images/Rectangle8.svg);
 }
 
 .categories__card:nth-of-type(3n + 3) {
-  background-image: url(/images/Rectangle\ 6.svg);
+  background-image: url(../../../images/Rectangle6.svg);
 }
 
 .categories__card:last-of-type {
