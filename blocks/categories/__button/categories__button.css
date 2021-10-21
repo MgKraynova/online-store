@@ -2,19 +2,10 @@
   border: 1px solid #3e3f43;
   box-sizing: border-box;
   border-radius: 4px;
-  font-family: Nunito;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 25px;
-  text-align: center;
-  color: #3e3f43;
-  text-decoration: none;
-  padding-top: 6px;
-  padding-bottom: 7px;
-  padding-left: 18px;
-  padding-right: 17px;
   position: absolute;
   bottom: 24px;
   right: 15px;
+  width: 123px;
+  height: 40px;
+  background: none;
 }

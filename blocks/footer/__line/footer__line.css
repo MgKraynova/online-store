@@ -1,5 +1,6 @@
 .footer__line {
-  width: 708px;
+  max-width: 708px;
   border-top: 1px solid #C4C4C4;
-  margin-top: 208px;
+  margin-bottom: 24px;
+  margin-left: 107px;
 }
