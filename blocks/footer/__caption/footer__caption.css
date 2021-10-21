@@ -1,0 +1,11 @@
+.footer__caption {
+  margin: 0;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  color: #8D8D8D;
+  text-transform: uppercase;
+text-align: center;
+}
