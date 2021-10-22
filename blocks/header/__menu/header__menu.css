@@ -1,9 +1,31 @@
 .header__menu {
-  max-width: 430px;
+  width: 430px;
   min-height: 22px;
   display: flex;
   justify-content: space-between;
   outline: 1px solid red;
   margin-top: 27px;
   margin-bottom: 31px;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 900px) {
+  .header__menu {
+    margin-right: 80px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .header__menu {
+    margin-right: 40px;
+  }
+}
+
+@media screen and (max-width: 593px) {
+  .header__menu {
+    margin-right: 0;
+    justify-content: center;
+    width: 320px;
+  }
 }

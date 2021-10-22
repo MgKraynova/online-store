@@ -3,4 +3,6 @@
   border-top: 1px solid #C4C4C4;
   margin-bottom: 24px;
   margin-left: 107px;
+  z-index: 10;
+  position: relative;
 }

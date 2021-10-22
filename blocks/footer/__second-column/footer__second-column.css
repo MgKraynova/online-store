@@ -4,4 +4,5 @@
   grid-template-columns: repeat(4, minmax(89px, 1fr));
   gap: 46px;
   max-width: 490px;
+  z-index: 5;
 }

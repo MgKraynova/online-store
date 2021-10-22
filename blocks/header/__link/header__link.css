@@ -5,21 +5,7 @@
   font-size: 16px;
   line-height: 22px;
   color: rgba(34, 34, 34, 0.75);
-  text-decoration: none;
   margin-right: 48px;
-}
-
-.header__link_active {
-  width: 45px;
-  height: 22px;
-  left: 0px;
-  top: 0px;
-  font-family: Nunito, Arial, sans-serif;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 16px;
-  line-height: 22px;
-  color: #daa520;
 }
 
 .header__link:last-of-type {
@@ -29,3 +15,25 @@
 .header__link:hover {
   text-decoration: underline;
 }
+
+@media screen and (max-width: 840px){
+  .header__link {
+    margin-right: 15px;
+  }
+}
+
+
+@media screen and (max-width: 719px) {
+  .header__link {
+    font-size: 24px;
+    margin-top: 15px;
+    text-align: start;
+  }
+}
+
+@media screen and (max-width: 593px) {
+  .header__link {
+    margin-top: 25px;
+  }
+}
+

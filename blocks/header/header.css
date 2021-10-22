@@ -3,3 +3,16 @@
   outline: 1px solid blue;
   justify-content: flex-start;
 }
+
+@media screen and (max-width: 900px) {
+  .header {
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 593px) {
+ .header {
+   flex-direction: column;
+   align-items: center;
+ }
+}
