@@ -9,3 +9,7 @@
   height: 40px;
   background: none;
 }
+
+.categories__button:hover {
+  background: none;
+}

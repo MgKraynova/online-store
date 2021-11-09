@@ -1,0 +1,36 @@
+.right-place__background {
+  position: absolute;
+  top: -80px;
+  right: 0;
+  width: 370px;
+  height: 800px;
+  z-index: -1;
+}
+
+@media screen and (max-width: 1000px) {
+  .right-place__background {
+    height: 580px;
+    right: -50px;
+  }
+}
+
+@media screen and (max-width: 855px) {
+  .right-place__background {
+    height: 500px;
+    right: -70px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .right-place__background {
+    height: 551px;
+    right: -60px;
+    top: -131px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .right-place__background {
+    display: none;
+  }
+}

@@ -13,6 +13,7 @@
 @import url(../blocks/logo/__rectangle/logo__rectangle.css);
 
 @import url(../blocks/right-place/right-place.css);
+@import url(../blocks/right-place/__background/right-place__background.css);
 @import url(../blocks/right-place/__image/right-place__image.css);
 @import url(../blocks/right-place/__span-accent/right-place__span-accent.css);
 @import url(../blocks/right-place/__subtitle/right-place__subtitle.css);

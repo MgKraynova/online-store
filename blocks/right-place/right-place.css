@@ -7,4 +7,33 @@
   max-width: 1152px;
   margin-left: auto;
   margin-right: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1000px) {
+  .right-place {
+    padding-top: 60px;
+    padding-left: 65px;
+    height: 500px
+  }
+}
+
+@media screen and (max-width: 855px) {
+  .right-place {
+    height: 420px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .right-place {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    min-height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
