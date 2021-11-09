@@ -4,4 +4,26 @@
   position: relative;
   margin-top: 40px;
   outline: 1px solid blue;
+  margin-left: 100px;
+}
+
+@media screen and (max-width: 1151px) {
+  .about-us__content-zone {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 60px;
+    padding-right: 60px;
+    height: initial;
+    min-height: 850px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .about-us__content-zone {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }

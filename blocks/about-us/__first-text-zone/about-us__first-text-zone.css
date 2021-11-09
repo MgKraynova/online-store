@@ -5,3 +5,13 @@
   outline: 1px solid yellow;
   right: 100px;
 }
+
+@media screen and (max-width: 1151px) {
+  .about-us__first-text-zone {
+    position: initial;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+}
+

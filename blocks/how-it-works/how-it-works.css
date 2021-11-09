@@ -6,3 +6,9 @@
   padding-left: 100px;
   margin-top: 121px;
 }
+
+@media screen and (max-width: 768px) {
+  .how-it-works {
+    margin-top: 60px;
+  }
+}

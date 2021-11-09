@@ -11,4 +11,11 @@
   margin-bottom: 16px;
 }
 
+@media screen and (max-width: 540px) {
+  .about-us__main-text {
+    font-size: 28px;
+    line-height: 39px;
+  }
+}
+
 

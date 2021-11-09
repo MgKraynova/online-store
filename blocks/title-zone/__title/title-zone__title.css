@@ -10,3 +10,24 @@
   margin: 0;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 700px) {
+  .title-zone__title {
+    font-size: 48px;
+    line-height: 78px;
+
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .title-zone__title {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .title-zone__title {
+    font-size: 36px;
+    line-height: 49px;
+  }
+}
