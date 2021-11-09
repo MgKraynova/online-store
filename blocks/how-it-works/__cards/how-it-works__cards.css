@@ -9,5 +9,6 @@
 @media screen and (max-width: 1151px) {
   .how-it-works__cards {
     gap: 30px;
+    justify-items: center;
   }
 }

@@ -5,6 +5,14 @@
   padding-right: 100px;
   padding-left: 100px;
   margin-top: 121px;
+  position: relative;
+}
+
+@media screen and (max-width: 1045px) {
+  .how-it-works {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
 }
 
 @media screen and (max-width: 768px) {

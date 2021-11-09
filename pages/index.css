@@ -54,6 +54,7 @@
 @import url(../blocks/how-it-works/__image-builder/how-it-works__image-builder.css);
 @import url(../blocks/how-it-works/__digit-four/how-it-works__digit-four.css);
 @import url(../blocks/how-it-works/__link/how-it-works__link.css);
+@import url(../blocks/how-it-works/__content-zone/how-it-works__content-zone.css);
 
 @import url(../blocks/categories/categories.css);
 @import url(../blocks/categories/__cards/categories__cards.css);

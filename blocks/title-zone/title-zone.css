@@ -1,6 +1,6 @@
 .title-zone {
   max-width: 952px;
-  height: 98px;
+  min-height: 98px;
   display: flex;
   justify-content: space-between;
   outline: 1px solid green;
@@ -12,6 +12,5 @@
 @media screen and (max-width: 540px) {
   .title-zone {
     flex-direction: column-reverse;
-    height: initial;
   }
 }

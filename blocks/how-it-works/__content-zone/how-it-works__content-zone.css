@@ -1,0 +1,4 @@
+.how-it-works__content-zone {
+  display: flex;
+  flex-direction: column;
+}
