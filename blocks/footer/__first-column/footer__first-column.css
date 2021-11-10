@@ -3,3 +3,9 @@
   flex-direction: column;
   z-index: 5;
 }
+
+@media screen and (max-width: 1151px) {
+  .footer__first-column {
+    align-items: center;
+  }
+}

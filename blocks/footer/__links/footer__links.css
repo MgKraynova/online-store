@@ -12,3 +12,10 @@
 .footer__links:last-of-type {
   margin-right: 0;
 }
+
+@media screen and (max-width: 1151px) {
+  .footer__links {
+    width: 100%;
+  }
+}
+

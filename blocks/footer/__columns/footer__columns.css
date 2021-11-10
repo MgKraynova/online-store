@@ -8,3 +8,13 @@
   z-index: 5;
   margin-bottom: 45px;
 }
+
+@media screen and (max-width: 1151px) {
+  .footer__columns {
+    flex-wrap: wrap;
+    margin-left: 0;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 40px;
+  }
+}

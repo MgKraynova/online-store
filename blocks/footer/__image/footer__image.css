@@ -9,5 +9,11 @@
   object-position: 0 48px;
   background-image: url(../../../images/background__footer.svg);
   z-index: 0;
-  /*transform: matrix(-1, 0, 0, 1, 0, 0);*/
+}
+
+@media screen and (max-width: 1151px) {
+  .footer__image {
+    position: initial;
+    display: none;
+  }
 }

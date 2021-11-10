@@ -1,7 +1,5 @@
 .footer {
-  /*background-image: url(/images/footer2.png);*/
   background-image: url("../../images/background__footer.svg");
-  /*background: #E5E5E5;*/
   background-size: cover;
   width: 100%;
   min-height: 455px;
@@ -10,3 +8,17 @@
   padding-top: 206px;
   z-index: -20;
 }
+
+@media screen and (max-width: 1151px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 103px;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+  }
+}
+
+
