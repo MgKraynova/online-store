@@ -3,3 +3,12 @@
   top: 88px;
   left: 1px;
 }
+
+@media screen and (max-width: 375px) {
+  .categories__left-image {
+    width: calc(246px - 10%);
+    height: calc(224px - 10%);
+    left: -10px;
+  }
+}
+

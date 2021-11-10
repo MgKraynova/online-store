@@ -19,6 +19,13 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .title-zone__title {
+    font-size: 34px;
+    line-height: 49px;
+  }
+}
+
 @media screen and (max-width: 540px) {
   .title-zone__title {
     margin-bottom: 20px;
@@ -26,9 +33,9 @@
   }
 }
 
-@media screen and (max-width: 425px) {
-  .title-zone__title {
-    font-size: 36px;
-    line-height: 49px;
-  }
-}
+/*@media screen and (max-width: 425px) {*/
+/*  .title-zone__title {*/
+/*    font-size: 36px;*/
+/*    line-height: 49px;*/
+/*  }*/
+/*}*/

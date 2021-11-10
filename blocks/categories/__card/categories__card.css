@@ -24,3 +24,14 @@
 .categories__card:last-of-type {
   background-image: none;
 }
+
+@media screen and (max-width: 1151px) {
+  .categories__card {
+    margin-top: 0;
+  }
+
+  .categories__card:last-of-type {
+    display: none;
+  }
+}
+
