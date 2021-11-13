@@ -1,4 +1,5 @@
 <h1 align="center"> Online-store</h1>
+<img src="screenshots/main page.png" title="online store">
 <h2 align="left">Описание проекта</h2>
 
 Просмотреть проект можно на GitHub Pages по ссылке: 
@@ -12,13 +13,6 @@
 Макет проекта был предоставлен наставником Яндекс.Практикума Максимом Чеченевым.
 
 Окончание проекта - ноябрь 2021 года.
-
-<details>
-<summary>Полное изображение проекта. Нажмите, чтобы развернуть</summary>
-<p align="center">
-  <img src="screenshots/page screenshot.png" title="online store">
-</p>
-</details>
 
 <h2 align="left">Использованные технологии</h2>
 
@@ -37,7 +31,7 @@
 <h2 align="left">Pixel Perfect</h2>
 
 <details>
-<summary>Скриншот сравнения проекта и макета. Нажмите, чтобы развернуть</summary>
+<summary>Скриншот сравнения проекта и макета c помощью специального расширения для браузера Chrome. Нажмите, чтобы развернуть</summary>
 <p align="center">
   <img src="screenshots/pixel perfect screenshot.png" title="online store">
 </p>
