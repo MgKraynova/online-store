@@ -16,5 +16,6 @@
     flex-direction: column;
     justify-content: center;
     row-gap: 40px;
+    max-width: 900px;
   }
 }
