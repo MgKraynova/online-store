@@ -13,6 +13,13 @@
 
 Окончание проекта - ноябрь 2021 года.
 
+<details>
+<summary>Полное изображение проекта. Нажмите, чтобы развернуть</summary>
+<p align="center">
+  <img src="screenshots/page screenshot.png" title="online store">
+</p>
+</details>
+
 <h2 align="left">Использованные технологии</h2>
 
 Страница проекта стилизована с помощью **CSS**:
@@ -26,6 +33,15 @@
 Поскольку макет страницы был представлен в разрешении 1152px, вид страницы при других разрешениях экрана подбирался автором проекта самостоятельно.
 
 При разработке и организации файлов использовалась **БЭМ** методология.
+
+<h2 align="left">Pixel Perfect</h2>
+
+<details>
+<summary>Скриншот сравнения проекта и макета. Нажмите, чтобы развернуть</summary>
+<p align="center">
+  <img src="screenshots/pixel perfect screenshot.png" title="online store">
+</p>
+</details>
 
 <h2 align="left">Планы по доработке проекта</h2>
 
