@@ -1,11 +1,10 @@
 .logo__text {
-  font-family: Nunito;
+  font-family: Nunito, Arial, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 33px;
   letter-spacing: 0.25em;
   color: #3e3f43;
-  outline: 1px solid red;
   margin: 0;
 }

@@ -1,7 +1,6 @@
 .categories__card {
   width: 280px;
   height: 400px;
-  outline: 1px solid red;
   margin-top: 39px;
   position: relative;
   display: flex;
