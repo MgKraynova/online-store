@@ -1,5 +1,6 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
+@import url(../blocks/document/document.css);
 @import url(../blocks/page/page.css);
 
 @import url(../blocks/header/header.css);
@@ -19,7 +20,6 @@
 @import url(../blocks/right-place/__subtitle/right-place__subtitle.css);
 @import url(../blocks/right-place/__title/right-place__title.css);
 @import url(../blocks/right-place/__button/right-place__button.css);
-@import url(../blocks/right-place/__link/right-place__link.css);
 
 @import url(../blocks/button/button.css);
 @import url(../blocks/link/link.css);
@@ -53,7 +53,6 @@
 @import url(../blocks/how-it-works/__image-calc/how-it-works__image-calc.css);
 @import url(../blocks/how-it-works/__image-builder/how-it-works__image-builder.css);
 @import url(../blocks/how-it-works/__digit-four/how-it-works__digit-four.css);
-@import url(../blocks/how-it-works/__link/how-it-works__link.css);
 @import url(../blocks/how-it-works/__content-zone/how-it-works__content-zone.css);
 
 @import url(../blocks/categories/categories.css);

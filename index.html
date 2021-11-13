@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="document">
 
 <head>
   <meta charset="UTF-8" />
@@ -32,7 +32,9 @@
           your place?
         </p>
         <h1 class="right-place__title">This is the Right Place</h1>
-        <button class="button right-place__button"><a href="#" class="link right-place__link">Explore Furniture</a></button>
+        <button onClick="location.href='#categories'" class="button right-place__button">
+          Explore Furniture
+        </button>
         <img src="images/background__right-place.svg" alt="Фон" class="right-place__background" />
         <img src="images/table__right-place.png" alt="Кофейный столик" class="right-place__image" />
       </section>
@@ -118,12 +120,14 @@
           </div>
 
           <!-- Кнопка -->
-          <button class="button how-it-works__button"><a href="#" class="link how-it-works__link">Get Personalized Now</a></button>
+          <button class="button how-it-works__button" onClick="location.href='#categories'">
+            Get Personalized Now
+          </button>
         </div>
       </section>
 
       <!-- Четвертая секция -->
-      <section class="categories">
+      <section class="categories" id="categories">
         <!-- Зона с логотипом -->
         <div class="title-zone">
           <h3 class="title-zone__subtitle">What we have</h3>
