@@ -11,11 +11,16 @@
 
 @media screen and (max-width: 1151px) {
   .footer__columns {
-    flex-wrap: wrap;
-    margin-left: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer__columns {
     flex-direction: column;
-    justify-content: center;
-    row-gap: 40px;
-    max-width: 900px;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 25px;
   }
 }

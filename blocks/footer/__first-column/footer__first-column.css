@@ -2,10 +2,18 @@
   display: flex;
   flex-direction: column;
   z-index: 5;
+  width: 192px;
 }
 
 @media screen and (max-width: 1151px) {
   .footer__first-column {
     align-items: center;
+    margin-right: 52px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer__first-column {
+    margin-right: 0;
   }
 }

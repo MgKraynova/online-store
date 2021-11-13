@@ -9,6 +9,7 @@
 
 @media screen and (max-width: 1151px) {
   .footer__line {
-    margin-left: initial;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
