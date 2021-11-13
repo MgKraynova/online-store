@@ -6,6 +6,7 @@
   line-height: 22px;
   color: rgba(34, 34, 34, 0.75);
   margin-right: 48px;
+  transition: filter 200ms linear, transform 200ms linear;
 }
 
 .header__link:last-of-type {
@@ -14,6 +15,7 @@
 
 .header__link:hover {
   text-decoration: underline;
+  transform: scale(1.15);
 }
 
 @media screen and (max-width: 840px){

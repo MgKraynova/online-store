@@ -12,4 +12,5 @@
 
 .categories__button:hover {
   background: none;
+  transform: scale(1.15);
 }
