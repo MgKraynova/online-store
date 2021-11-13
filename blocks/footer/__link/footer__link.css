@@ -13,4 +13,6 @@
   display: block;
 }
 
-
+.footer__link:hover {
+  text-decoration: underline;
+}
