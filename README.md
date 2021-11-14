@@ -2,7 +2,7 @@
 <img src="screenshots/main page.png" title="online store">
 <h2 align="left">Описание проекта</h2>
 
-Просмотреть проект можно на GitHub Pages по ссылке:  https://mgkraynova.github.io/online-store/
+Просмотреть проект можно на GitHub Pages по ссылке:  https://mgkraynova.github.io/online-store/ 
 
 Проект **Online-store** подготовлен для отработки навыков верстки статичных интернет страниц.
 
